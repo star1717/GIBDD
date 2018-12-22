@@ -116,7 +116,7 @@ namespace WindowsFormsApp1
                 shtraf = obj.Shtraf.Select(j => j.Kod_shtraf).ToList()
 
 
-        };
+            };
         }
         private ShtrafMod ConvertInShtrafMod(Shtraf obj)
         {
